@@ -82,6 +82,7 @@ CREATE TABLE `customer` (
 INSERT INTO `customer` (`customer_id`, `pwd`, `name`, `email`, `phone_no`, `address`) VALUES
 ('aadith', 'aadith007', 'aadith_name', 'aadith_email', '12345', 'aadith_address'),
 ('Apple', 'abhishek', 'Abhijeeth', 'gmail@gmail.com', '+9185564764', 'hgsjhgdjfdjdgf'),
+('Suraj', '123456', 'Suraj', '08surajsys@gmail.com', '7506880483', 'Mumbai'),
 ('blah', 'blah blah', 'blah', 'blah@gmail.com', '993498570', 'blah'),
 ('charles', 'charles_pass', 'Charles', 'charles@gmail.com', '9090909090', 'Bangalore'),
 ('chirag008', 'chirag', 'Chirag G', 'chirag@gmail.com', '8080808080', 'Kuldlu Gate'),
