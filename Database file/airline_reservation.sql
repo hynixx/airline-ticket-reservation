@@ -114,11 +114,11 @@ CREATE TABLE `flight_details` (
 --
 
 INSERT INTO `flight_details` (`flight_no`, `from_city`, `to_city`, `departure_date`, `arrival_date`, `departure_time`, `arrival_time`, `seats_economy`, `seats_business`, `price_economy`, `price_business`, `jet_id`) VALUES
-('AA101', 'bangalore', 'mumbai', '2017-12-01', '2017-12-02', '21:00:00', '01:00:00', 195, 96, 5000, 7500, '10001'),
-('AA102', 'bangalore', 'mumbai', '2017-12-01', '2017-12-01', '10:00:00', '12:00:00', 200, 73, 2500, 3000, '10002'),
-('AA103', 'bangalore', 'chennai', '2017-12-03', '2017-12-03', '17:00:00', '17:45:00', 150, 75, 1200, 1500, '10004'),
-('AA104', 'bangalore', 'mysore', '2017-12-04', '2017-12-04', '09:00:00', '09:17:00', 37, 4, 500, 750, '10003'),
-('AA106', 'bangalore', 'hyderabad', '2017-12-01', '2017-12-01', '13:00:00', '14:00:00', 150, 75, 3000, 3750, '10004');
+('AA101', 'bangalore', 'mumbai', '2020-12-01', '2020-12-02', '21:00:00', '01:00:00', 195, 96, 5000, 7500, '10001'),
+('AA102', 'bangalore', 'mumbai', '2020-12-01', '2020-12-01', '10:00:00', '12:00:00', 200, 73, 2500, 3000, '10002'),
+('AA103', 'bangalore', 'chennai', '2020-12-03', '2020-12-03', '17:00:00', '17:45:00', 150, 75, 1200, 1500, '10004'),
+('AA104', 'bangalore', 'mysore', '2020-12-04', '2020-12-04', '09:00:00', '09:17:00', 37, 4, 500, 750, '10003'),
+('AA106', 'bangalore', 'hyderabad', '2020-12-01', '2020-12-01', '13:00:00', '14:00:00', 150, 75, 3000, 3750, '10004');
 
 -- --------------------------------------------------------
 
@@ -272,14 +272,14 @@ CREATE TABLE `ticket_details` (
 --
 
 INSERT INTO `ticket_details` (`pnr`, `date_of_reservation`, `flight_no`, `journey_date`, `class`, `booking_status`, `no_of_passengers`, `lounge_access`, `priority_checkin`, `insurance`, `payment_id`, `customer_id`) VALUES
-('1669050', '2017-11-25', 'AA104', '2017-12-04', 'business', 'CONFIRMED', 3, 'yes', 'yes', 'yes', '620041544', 'harryroshan'),
-('2369143', '2017-11-26', 'AA101', '2017-12-01', 'business', 'CONFIRMED', 4, 'yes', 'yes', 'yes', '467972527', 'blah'),
-('3027167', '2017-11-25', 'AA101', '2017-12-01', 'economy', 'CONFIRMED', 2, 'no', 'no', 'yes', '862686553', 'aadith'),
-('3773951', '2017-11-25', 'AA104', '2017-12-04', 'economy', 'CONFIRMED', 3, 'yes', 'yes', 'yes', '142539461', 'aadith'),
-('4797983', '2017-11-25', 'AA104', '2017-12-04', 'business', 'CONFIRMED', 3, 'yes', 'no', 'yes', '120000248', 'harryroshan'),
-('5421865', '2017-11-28', 'AA101', '2017-12-01', 'economy', 'CONFIRMED', 3, 'no', 'no', 'no', '665360715', 'harryroshan'),
-('6980157', '2017-11-26', 'AA101', '2017-12-01', 'economy', 'CANCELED', 2, 'yes', 'yes', 'yes', '557778944', 'aadith'),
-('8503285', '2017-11-25', 'AA102', '2017-12-01', 'business', 'CONFIRMED', 2, 'yes', 'yes', 'no', '165125569', 'aadith');
+('1669050', '2017-11-25', 'AA104', '2020-12-04', 'business', 'CONFIRMED', 3, 'yes', 'yes', 'yes', '620041544', 'harryroshan'),
+('2369143', '2017-11-26', 'AA101', '2020-12-01', 'business', 'CONFIRMED', 4, 'yes', 'yes', 'yes', '467972527', 'blah'),
+('3027167', '2017-11-25', 'AA101', '2020-12-01', 'economy', 'CONFIRMED', 2, 'no', 'no', 'yes', '862686553', 'aadith'),
+('3773951', '2017-11-25', 'AA104', '2020-12-04', 'economy', 'CONFIRMED', 3, 'yes', 'yes', 'yes', '142539461', 'aadith'),
+('4797983', '2017-11-25', 'AA104', '2020-12-04', 'business', 'CONFIRMED', 3, 'yes', 'no', 'yes', '120000248', 'harryroshan'),
+('5421865', '2017-11-28', 'AA101', '2020-12-01', 'economy', 'CONFIRMED', 3, 'no', 'no', 'no', '665360715', 'harryroshan'),
+('6980157', '2017-11-26', 'AA101', '2020-12-01', 'economy', 'CANCELED', 2, 'yes', 'yes', 'yes', '557778944', 'aadith'),
+('8503285', '2017-11-25', 'AA102', '2020-12-01', 'business', 'CONFIRMED', 2, 'yes', 'yes', 'no', '165125569', 'aadith');
 
 --
 -- Indexes for dumped tables
